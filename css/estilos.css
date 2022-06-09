@@ -204,8 +204,11 @@ header {
 }
 
 .light-box img {
-  width: 75vw;
-  max-height: 70vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+  width: auto;
+  max-height: 100vh;
 }
 
 .light-box:target {
